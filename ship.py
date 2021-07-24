@@ -15,6 +15,7 @@ class Ship():
         self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
         self.center = float(self.rect.centerx)
+
         # Move flag
         self.moving_right = False
         self.moving_left = False
