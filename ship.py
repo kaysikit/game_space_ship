@@ -20,6 +20,10 @@ class Ship():
         self.moving_right = False
         self.moving_left = False
 
+    def center_ship(self):
+        """Center the ship on the screen."""
+        self.center = self.screen_rect.centerx
+
     def update(self):
         """Updates the position of the ship with the flag."""
         # The center attribute is updated, not rect.

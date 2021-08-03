@@ -16,10 +16,12 @@ def run_game():
     pygame.display.set_caption("Alien Invasion")
 
     # Create a Play button.
-    play_button = Button(ai_settings, screen, "Play game")
+    play_button = Button(ai_settings, screen, "Play")
 
     # Create an instance to store game statistics.
     stats = GameStats(ai_settings)
+
+    bg_color = (230, 230, 230)
 
     # Creation of a ship.
     ship = Ship(ai_settings, screen)
